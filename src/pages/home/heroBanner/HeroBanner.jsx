@@ -20,7 +20,7 @@ function HeroBanner() {
     setBackground(bg);
   }, [data]);
   const searchQueryHandler = (event) => {
-    if (event.key === "Enter" && query.length > 0) {
+    if ((event.key === "Enter" && query.length > 0)  ||( event == "searchquery" && query.length > 0)) {
       navigate(`/search/${query}`);
     }
   };
@@ -52,7 +52,7 @@ function HeroBanner() {
             />
             <button
               onClick={() => {
-                searchQueryHandler("");
+                searchQueryHandler("searchquery");
               }}
             >
               <BsSearch />
