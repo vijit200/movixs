@@ -36,7 +36,7 @@ const Footer = () => {
             </span>
           </Link>
 
-          <Link to="https://github.com/vijit200/movix" target="_blank">
+          <Link to="https://github.com/vijit200/movixs" target="_blank">
             <span className="icon">
               <FaGithub />
             </span>
