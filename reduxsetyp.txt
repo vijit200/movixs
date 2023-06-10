@@ -1,0 +1,9 @@
+in src create store folder
+in store folder create file store.js
+in main.jsx import {store} from './store/store';
+take app 
+<Provider store={store}>
+    <App />
+</Provider>
+https://www.planetspark.in/careers
+
